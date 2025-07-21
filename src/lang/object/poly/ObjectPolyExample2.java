@@ -9,6 +9,12 @@ public class ObjectPolyExample2 {
 
         Object[] objects = {dog, car, object};
 
+        //쉽게 풀어서 설명하면 다음과 같다.
+        //Object[] objects = new Object[3];
+        //objects[0] = dog;
+        //objects[1] = car;
+        //objects[2] = object;
+
         size(objects);
     }
 
