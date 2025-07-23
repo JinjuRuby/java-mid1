@@ -1,14 +1,13 @@
-package exception.ex1;
+package exception.ex3;
 
 import java.util.Scanner;
 
-public class MainV1 {
+public class MainV3 {
 
     public static void main(String[] args) {
 
-        //NetworkSeviceV1_1 networkSevice = new NetworkSeviceV1_1();
-        //NetworkSeviceV1_2 networkSevice = new NetworkSeviceV1_2();
-        NetworkSeviceV1_3 networkSevice = new NetworkSeviceV1_3();
+        //NetworkSeviceV3_1 networkSevice = new NetworkSeviceV3_1();
+        NetworkSeviceV3_2 networkSevice = new NetworkSeviceV3_2();
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
